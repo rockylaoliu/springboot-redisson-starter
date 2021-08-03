@@ -4,7 +4,7 @@
 ## 使用DEMO
 
 ### 引用jar
-implementation "com.springboot.redisson.starter:springboot-redisson-starterr:1.0-SNAPSHOT"
+implementation "com.springboot.redisson.starter:springboot-redisson-starter:1.0-SNAPSHOT"
 
 ### 添加配置信息
 redisson:
