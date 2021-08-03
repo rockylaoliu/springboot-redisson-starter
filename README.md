@@ -1,15 +1,15 @@
 ## springboot-redisson-starter
-基于redisson的分布式锁demo
+基于redisson的分布式锁demo  
 
 ## 使用DEMO
 
 ### 引用jar
-implementation "com.springboot.redisson.starter:springboot-redisson-starter:1.0-SNAPSHOT"
+implementation "com.springboot.redisson.starter:springboot-redisson-starter:1.0-SNAPSHOT"  
 
 ### 添加配置信息
-redisson:
-  starter:
-    redisson:
+redisson:  
+  starter:  
+    redisson:  
       enabled: ${REDISSON_ENABLED:false}  
       host: redis服务器地址
       port: 6379  
