@@ -10,10 +10,10 @@ implementation "com.springboot.redisson.starter:springboot-redisson-starter:1.0-
 redisson:
   starter:
     redisson:
-      enabled: ${REDISSON_ENABLED:false}
+      enabled: ${REDISSON_ENABLED:false}  
       host: redis服务器地址
-      port: 6379
-      password: redis服务密码
+      port: 6379  
+      password: redis服务密码  
       prefix: e_testing_automation_
 
 ### 使用注解
