@@ -7,7 +7,7 @@
 implementation "com.springboot.redisson.starter:springboot-redisson-starter:1.0-SNAPSHOT"  
 
 ### 添加配置信息
-‘’‘
+'''
 redisson:  
   starter:  
     redisson:  
@@ -16,7 +16,7 @@ redisson:
       port: 6379  
       password: redis服务密码  
       prefix: e_testing_automation_
-’‘’
+'''
 
 ### 使用注解
 @EnableRedissonLock(waitTime = 1, leaseTime = 2)
